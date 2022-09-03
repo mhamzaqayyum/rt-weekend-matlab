@@ -16,13 +16,12 @@ classdef camera < handle
             obj.focal_length = 1.0;
 
             % Use vertical FOV to set viewport dimensions
-            h = tan(y_fov/2)*obj.focal_length;
+            h = tan(deg2rad(y_fov)/2)*obj.focal_length;
             viewport_height = 2.0*h;
             viewport_width = obj.aspect_ratio * viewport_height;
 
             % Camera basis vectors
             view_dir = unit_vector(lookat-lookfrom);
-            disp(view_dir)
             x = unit_vector(cross(view_dir, vup));
             y = cross(-x, -view_dir);
 

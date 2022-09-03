@@ -1,4 +1,4 @@
-cam = camera([0 0 0], [0 0 -1], [0 1 0], 16.0/9.0, 70);
+cam = camera([0 0 0], [0 0 -1], [0 1 0], 16.0/9.0, 65);
 
 image_width = 100;
 image_height = round(image_width / cam.aspect_ratio);
