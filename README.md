@@ -1,5 +1,5 @@
 # Raytracing in One Weekend in MATLAB
-I previously [implemented](https://github.com/e6quisitory/rt-weekend) a raytracer in C++ following Peter Shirley's [_Raytracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html). I added some extra features on top of Shirley's implementation, like multithreading and a movable camera for video frames rendering.
+I previously [implemented](https://github.com/mhamzaqayyum/rt-weekend) a raytracer in C++ following Peter Shirley's [_Raytracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html). I added some extra features on top of Shirley's implementation, like multithreading and a movable camera for video frames rendering.
 
 This is that same raytracer implemented in... MATLAB
 
